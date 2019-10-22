@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Home",
+        "link": "/section/home"
+    },
+    {
+        "title": "Opinion",
+        "link": "/section/opinion"
+    },
+    {
+        "title": "World",
+        "link": "/section/World"
+    },
+    {
+        "title": "National",
+        "link": "/section/national"
+    },
+    {
+        "title": "Politics",
+        "link": "/section/politics"
+    },
+    {
+        "title": "Technology",
+        "link": "/section/technology"
+    },
+    {
+        "title": "Science",
+        "link": "/section/science"
+    }
+    ,
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    },
+    {
+        "title": "Science",
+        "link": "/science"
+    }
+]
