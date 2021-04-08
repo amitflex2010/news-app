@@ -26,42 +26,10 @@
     {
         "title": "Science",
         "link": "/section/science"
+    },
+    {
+        "title": "Health",
+        "link": "/section/health"
     }
-    ,
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    },
-    {
-        "title": "Science",
-        "link": "/science"
-    }
+    
 ]

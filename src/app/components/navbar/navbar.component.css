@@ -1,0 +1,26 @@
+.nyt-navbar {
+  margin: 0 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.nyt-navbar ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+  height: 40px;
+
+  background-color: #333;
+  color: #fff;
+}
+.nyt-navbar ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.nyt-navbar ul li .active-subsection {
+  background: #2f7395;
+}

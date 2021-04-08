@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { NewsComponent } from './components/news/news.component';
 
 
 
 
 const routes: Routes = [
-  { path: 'section/home', component: NavbarComponent },
+  { path: 'section/:section', component: NewsComponent },
   { path: '',
     redirectTo: '/section/home',
     pathMatch: 'full'

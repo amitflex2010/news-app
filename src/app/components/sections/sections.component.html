@@ -1,0 +1,14 @@
+
+<!--<div class="left-float">
+    <div *ngFor="let section of filteredSection | async" class="menu-style">
+        <a style="width: 100%; height: 100%;" href="{{section.link}}"><p>{{section.title}}</p></a>
+    </div>
+</div>-->
+<div class="nyt-sections">
+    <ul>
+        <li *ngFor="let section of sections" 
+        routerLink="/section/{{section}}"
+        routerLinkActive="active-section"
+        >{{section}}</li>
+    </ul>
+  </div>

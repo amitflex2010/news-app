@@ -1,0 +1,15 @@
+.nyt-sections ul {
+  margin: 0;
+  padding: 0;
+  height: calc(100vh);
+  overflow-y: auto;
+}
+.nyt-sections ul li {
+  padding: 0.4rem 1rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.active-section {
+  background: #2f7395;
+}

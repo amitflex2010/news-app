@@ -1,0 +1,59 @@
+.nyt-news-item {
+  margin-bottom: 1rem;
+}
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #fefbf7;
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+.media {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.media > img {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  margin: 27px;
+}
+
+.publisher {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+}
+
+.badge {
+  margin-left: 0.4rem;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.news-detail {
+  margin-bottom: 5px;
+}
+
+.external-link {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.blockquote-footer > cite {
+  color: #000;
+  font-weight: bold;
+}
