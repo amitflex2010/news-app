@@ -44,7 +44,6 @@ export class NavbarComponent implements OnInit {
           }
         }
       );
-      console.log(this.subSectionsNavItems)
   }
 
   filterNews(filter: string): void {

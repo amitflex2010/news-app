@@ -3,11 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "clientdev": "ng serve",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "node server",
+    "server": "node server",
+    "client": "ng build",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "prod": "NODE_ENV=production concurrently  \"npm run build --prod\" \"npm run start\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +28,9 @@
     "@ngrx/schematics": "^8.4.0",
     "@ngrx/store": "^8.4.0",
     "@ngrx/store-devtools": "^8.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
     "rxjs": "~6.6.7",
     "tslib": "^1.10.0",
     "zone.js": "~0.11.4"
@@ -36,6 +43,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "concurrently": "^5.1.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^6.3.2",

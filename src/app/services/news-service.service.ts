@@ -13,12 +13,20 @@ export class NewsService {
   constructor(private http: HttpClient) { }
 
   getSectionNews(selectedItem):Observable<INews> {
-    const apiURL = environment.baseUrl+selectedItem;
-    const apiKEY = environment.apikey;
+    let apiURL = '';
+    let apiKEY = '';
+    if(environment.production) {
+       apiURL = environment.baseUrl+selectedItem;
+       apiKEY = environment.apikey;
+    } else {
+       apiURL = environment.baseUrl+selectedItem;
+       apiKEY = environment.apikey;
+    }
+    
     const endpointURL = apiURL+'.json?api-key='+apiKEY;
     return this.http.get<INews>(endpointURL)
     .pipe(
-      tap(data => console.log(data)),
+      tap(data => data),
       catchError(this.handleError) 
     )
   }

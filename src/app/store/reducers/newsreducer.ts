@@ -7,7 +7,6 @@ export const NewsReducer = (
 ): INewsState => {
   switch (action.type) {
     case ENewsActions.GetNewsSuccess:
-      console.log(action.payload);
       return {
         ...state,
         filterNewsSection:'',
